@@ -4,7 +4,10 @@
   "description": "This is back-end for Sriram's portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "npm i",
+    "dev": "nodemon server.js"
   },
   "author": "Itha Sriram Santhosh",
   "license": "ISC",
